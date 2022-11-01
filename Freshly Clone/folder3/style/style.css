@@ -1,0 +1,620 @@
+/* --------------------universal css-------------------- */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  * {
+    font-family: "Raleway";
+    box-sizing: border-box;
+    font-family: Favoritfreshly,sans-serif;
+  }
+
+
+/* ------------------style for box 1----------------------- */
+/* ------------------style for box 1----------------------- */
+.box1{
+    margin-top: 70px;
+    width: 100%;
+    background-image: url("https://uploads-ssl.webflow.com/5d03b4e130118314af624b20/62aa50d46eadd67c1b7ca2df_Freshly_SpringMarketing_C141139-Edit%20(1)%20(2).jpg");
+    display: flex;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.box11{
+    width: 60%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.462));
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.box11>div{
+    width: 300px;
+}
+.box11>div>h2{
+    color: white;
+    margin: 0 40px 40px 0;
+    font-size: 30px;
+}
+.box12{
+    width: 40%;
+    background-color: #85e5c6;
+    padding: 40px;
+    text-align: right;
+}
+.box12>h1{
+    font-size: 64px;  
+    margin-top: 25px;
+}
+.box121{
+    margin-top: 50px;
+}
+.box121>button{
+    padding: 10px 30px;
+}
+.box121>button:nth-child(1){
+    background-color: white;
+    color: #3167ff;
+    border: 2px solid #3167ff;
+    font-weight: bold;
+}
+.box121>button:nth-child(2){
+    color: white;
+    background-color: #3167ff;
+    border: 2px solid #3167ff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.colorb{
+    color: #3167ff;
+}
+.box122>p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* ------------------------style for box 2----------------------------- */
+/* ------------------------style for box 2----------------------------- */
+.box1,.box2{
+    border: 0.1px solid transparent;
+}
+.box2{
+    background-color: #fef9eb;
+    width: 100%;
+    margin: auto;
+}
+.box2_heading{
+    text-align: center;
+    font-size: 48px;
+    color: #303030;
+}
+.box21{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+    
+}
+.box21>div{
+    text-align: center;
+}
+.box21>div>div{
+    height: 170px;
+    display: flex;
+    justify-content:space-around;
+}
+.box21>div>div>img{
+    max-width: 140px;
+}
+.box21>div>p{
+    max-width: 170px;
+    margin: auto;
+}
+
+
+
+
+/* --------------------------style for box 3---------------------- */
+/* --------------------------style for box 3---------------------- */
+.box3{
+    width: 100%;
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/61f127577dd58a9659fa4545_22_Homepage_OntheMenu_BG_1440%20x%20890.jpg");
+    background-size: cover;
+    padding: 60px;
+}
+.box31{
+    width: 770px;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+}
+.box31>h1{
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.box31>p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.box31>button{
+    width: 100%;
+    background-color: #3167ff;
+    border: 1px  solid #3167ff;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+}
+.box311{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+}
+.box311>div>div{
+    margin-top: 15px;
+    height: 180px;
+    width: 210px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+.box311>div:hover{
+    cursor: pointer;
+}
+.box311>div>div>img{
+    height: 180px;
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.box311>div>div>img:hover{
+    transform: scale(1.1);
+    transition: 1500ms;
+    border-radius: 16px;
+}
+.box311>div>h3{
+    width: 210px;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 15px;
+}
+.box311>div>p{
+    width: 210px;
+    font-size: 13px;
+    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    color: #357471;
+}
+.box32{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.775);
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.box32a{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+.box321{
+    padding: 20px;
+    padding-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.box32a>button{
+    position: absolute;
+    right: 26%;
+    top: 45px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+.box32a>button:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+}
+.box322{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box322>div:nth-child(2){
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+.box322>div{
+    width: 48%;
+}
+.box322>div>p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.box322>div>img{
+    max-width: 100%;
+}
+
+
+
+/* --------------------------style for box 4---------------------- */
+/* --------------------------style for box 4---------------------- */
+
+.box4{
+    background-color: #fffdf7;
+    margin-bottom: 0;
+}
+.box41{
+    border: 1px solid transparent;
+    width: 60%;
+    margin: auto;
+}
+.box41>h1{
+    text-align: center;
+    font-size: 37px;
+    margin-top: -1px;
+    color: #333;
+}
+.box412{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -15px;
+}
+.box411{
+    width: 15%;
+    height: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+.box411>img{
+    height: 100%;
+    width: 100%;
+}
+.box42{
+    margin-top: 40px;
+}
+.box422{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.box422>p{
+    font-size: 14px;
+    color: #357471;
+}
+.box422>button{
+    border: 0px;
+    padding: 13px 16px;
+    width: 150px;
+    margin: auto;
+    background-color: #3167ff;
+    color: white;
+    font-size: 18px;
+    word-spacing: .5px;
+}
+ .box422>button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.box421{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.box421>div{
+    margin-top: 20px;
+}
+.box4211{
+    width: 95%;
+    margin: auto;
+}
+.box4211>img{
+    max-width: 100%;
+}
+.box4211>h3{
+    color: #357471;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+}
+.box4211:hover{
+    cursor: pointer;
+}
+.box4211>p{
+    padding: 2px 5px;
+    width: 60%;
+    font-size: 14px;
+    position:relative;
+    top: -225px;
+    left: 10px;
+    background-color: #85e5c6;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+
+
+/* --------------------------style for box 5---------------------- */
+/* --------------------------style for box 5---------------------- */
+.box5{
+    background-color: #fffdf7;
+    margin-top: 0;
+    border: 1px solid transparent;
+}
+.box51{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+}
+.box51>h1{
+    margin-top: 30px;
+}
+.box52{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 50px;
+    text-align: center;
+    color: #333;
+    line-height: 1.43em;
+    padding-bottom: 60px;
+}
+.box52>div>img{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+/* --------------------------style for box 6---------------------- */
+/* --------------------------style for box 6---------------------- */
+.box6{
+    padding: 40px;
+    width: 100%;
+    margin: auto;
+}
+.box61{
+    color: #333;
+    width: 100%;
+    margin: auto;
+    height: 708px;
+    background-repeat: no-repeat;
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/61f1275059fd961964f53287_22_Homepage_EatingBetterEasy_BG_866x708.jpg");
+    background-size: 60%;
+    background-position: 100% 50%;
+}
+.box611{
+    width: 52%;
+    padding: 46px;
+    position:relative;
+    left: 0;
+    top: 22%;
+    background-color: white;
+}
+.box611>button{
+    border: 0px;
+    padding: 10px 12px;
+    width: 150px;
+    margin: auto;
+    background-color: #3167ff;
+    color: white;
+    font-size: 18px;
+    word-spacing: .5px;
+}
+ .box611>button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.box611>h1{
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+/* --------------------------style for box 7---------------------- */
+/* --------------------------style for box 7---------------------- */
+.box7{
+    color: #333;
+    padding: 40px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+.box71{
+    width: 100%;
+    margin: auto;
+    height: 708px;
+    background-repeat: no-repeat;
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/61f1274f0c096f517bb89ed5_22_Homepage_HealthyMealsDelivered_866x708.jpg");
+    background-size: 60%;
+}
+.box711{
+    width: 52%;
+    padding: 46px;
+    position:relative;
+    left: 48%;
+    top: 20%;
+    background-color: white;
+}
+.box711>h1{
+    font-size: 45px;
+    margin-top: 0;
+
+}
+.box711>input{
+    height: 48px;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 13px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+.box711>button{
+    background-color: #3167ff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    border: #3167ff;
+    padding: 10px 22%;
+    margin-bottom: 20px;
+}
+.box711>button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.box711>p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------style for box 8---------------------- */
+/* --------------------------style for box 8---------------------- */
+.box8{
+    background-color: #f7f7f7;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+}
+.box8>div{
+    padding: 32px 24px;
+    display: flex;
+    justify-content: center;
+}
+.box8>div>img{
+    max-width: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------media query for whole page-------------------------*/
+/* --------------------media query for whole page-------------------------*/
+@media (max-width: 475px) {
+    .box611>h1,.box711>h1{
+        font-size: 25px
+    }
+    
+}
+
+
+
+@media (max-width: 878px) {
+    .box1{
+      display: flex;
+      flex-direction: column-reverse;
+      background-size: 100%;
+      background-repeat: repeat;
+    }
+    .box1>div{
+      width: 100%;
+    }
+    .box12>h1{
+        font-size: 30px;
+    }
+    .box121>button{
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-top: 15px;
+    }
+    .box11>div>h2{
+        margin-top: 30px;
+    }
+    .box32a{
+        width: 90%;
+    }
+    .box611,.box711{
+        top: 15%;
+    }
+    .box611>h1,.box711>h1{
+        font-size: 35px
+    }
+  }
+
+
+  @media (max-width: 985px){
+    .box1{
+        background-size: 100%;
+    }
+    .box121>button{
+        font-size: 14px;
+        padding: 5px 15px;
+        margin-top: 15px;
+    }
+    .box31{
+        width: 90%;
+    }
+    .box32a{
+        width: 70%;
+    }
+    .box61,.box71{
+        background-size: auto;
+        background-position: center;
+        
+    }
+    .box611,.box711{
+        width: 80%;
+        left: auto;
+        right: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  }
+
+
+
+  @media (max-width: 1265px){
+    .box1{
+        background-size: 100%;
+    }
+    .box711{
+        top: 5%;
+    }
+}
+

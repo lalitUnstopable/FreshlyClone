@@ -1,0 +1,64 @@
+/* CSS for footer */
+
+#section8{
+    border-top: 1px solid grey;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #section8_data{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+  }
+
+  #footer_box{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 250px;
+    color: grey;
+    font-weight: 500;
+    text-align: left;
+    margin: auto;
+  }
+
+  #footer_box>p:first-child{
+    font-size: 16px;
+    color : black
+
+  }
+
+  #footer_box>p{
+    font-size: 14px;
+  }
+
+  #footerlogo{
+    width: 120px;
+    height: 70px;
+  }
+
+  .socail_handles{
+    color: gray;
+    width: 75%;
+    /* border: 1px solid red; */
+  }
+
+  .socail_handles>i{
+    margin-left: 10px;
+  }
+
+  .AppleStore{
+    width: 100px;
+    height: 80px;
+  }
+
+  .PlayStore{
+    width: 100px;
+    height: 35px;
+  }
+ /* <!-- Section 8 Ends here Footer  -->  */
+ 

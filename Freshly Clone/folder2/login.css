@@ -1,0 +1,45 @@
+#body{
+    background-color: rgb(255,253,247);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+#login{
+    /* border: 2px solid black; */
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 70px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+input{
+    width: 98%;
+    height: 40px;
+    margin-top: -25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid rgb(82, 81, 81);
+    font-size: large;
+}
+#loginbutton{
+    width: 99.7%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: rgb(42,109,255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: white;
+    font-size: large;
+    border: none;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    margin-top: 0px;
+}

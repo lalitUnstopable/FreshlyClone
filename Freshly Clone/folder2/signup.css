@@ -1,0 +1,95 @@
+body{
+    overflow: scroll;
+    background-color: rgb(255,253,247);
+}
+#banner{
+    background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding-top: 50px;
+   margin-top: 120px;
+}
+
+#signup{
+    background: rgb(255,255,255,.8);
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 45%;
+    /* height: 370px; */
+    padding: 1.5%;
+    font-size: 23px;
+    transform: translate3d(-50%,-50%);
+}
+#email{
+    height: 40px;
+    width: 40%;
+    padding-left: 15px;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+#password{
+    height: 40px;
+    width: 20%;
+    padding-left: 15px;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+#signupbutton{
+    height: 44px;
+    width: 25%;
+    font-size: 70%;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(42,109,255);
+    color: white;
+}
+p{
+    font-size: medium;
+}
+#saving_meal{
+   width: 100%;
+   font-size: large;
+   border: none;
+   border-bottom: 1px solid rgb(46, 46, 46);
+}
+#meal_des{
+    width: 1000px;
+}
+#bottomsection{
+    width: 80%;
+    margin: auto;
+}
+#common{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.des{
+    /* visibility: hidden; */
+    display: none;
+}
+.heading{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.heading:hover{
+    color: rgb(42,109,255);
+}
+.arrow{
+    border: none;
+    background-color: white;
+    font-size:25px;
+    font-weight: bolder;
+    color: rgb(42,109,255);
+}
